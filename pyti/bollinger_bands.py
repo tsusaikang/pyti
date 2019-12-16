@@ -70,7 +70,7 @@ def bandwidth(data, period, std=2.0):
     Bandwidth.
 
     Formula:
-    bw = u_bb - l_bb / m_bb
+    bw = (u_bb - l_bb) / m_bb
     """
     catch_errors.check_for_period_error(data, period)
 
